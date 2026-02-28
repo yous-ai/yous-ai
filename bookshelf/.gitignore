@@ -1,0 +1,41 @@
+# Dependencies
+.env
+.env.local
+.env.production
+
+# Virtual environment
+.venv/
+venv/
+
+# Database
+instance/
+*.db
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+secrets/
+
+# Frontend
+node_modules/
+frontend/dist/
